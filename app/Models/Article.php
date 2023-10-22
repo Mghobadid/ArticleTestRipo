@@ -6,11 +6,15 @@ use App\Enums\ArticleTypeEnum;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Spatie\Translatable\HasTranslations;
 
 class Article extends Model
 {
     use HasFactory;
+    use HasTranslations;
 
+    public array $translatable = ['body','title'];
+    protected $fillable=['title','body'];
     protected $casts = [
         'type' => ArticleTypeEnum::class
     ];

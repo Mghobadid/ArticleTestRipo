@@ -11,6 +11,7 @@ class Article extends Model
 {
     use HasFactory;
 
+
     protected $casts = [
         'type' => ArticleTypeEnum::class
     ];

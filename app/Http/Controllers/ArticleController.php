@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\ArticleAnalyticsService;
+use App\Models\Article;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
+use Stichoza\GoogleTranslate\GoogleTranslate;
 
 class ArticleController extends Controller
 {
@@ -31,5 +33,65 @@ class ArticleController extends Controller
         $count_article_types = $analytics->getCountByType($from, $to);
 
         return view('welcome', compact('likes_count', 'view_count', 'most_viewed_article', 'most_liked_article', 'most_liked_article', 'count_article_types'));
+    }
+
+    public function create()
+    {
+        return view('create');
+    }
+
+    public function store(Request $request)
+    {
+        $request->validate([
+            'title' => 'string',
+            'content' => 'string',
+
+        ]);
+        $translates_key = ['es', 'ko', 'tr'];
+        $translatable_fields = ['title', 'body'];
+        $tr = new GoogleTranslate(); // Translates to 'en' from auto-detected language by default
+        $tr->setSource('en');
+        $translated = [];
+        foreach ($translates_key as $key) // add original filed to array
+        {
+            $tr->setTarget($key);
+            foreach ($translatable_fields as $field)
+            {
+                $translated[$field . '_' . $key] = $tr->translate(\request($field)); // ex output:title_tr , body_tr
+            }
+        }
+        $request->merge($translated);
+
+        Article::create($request->toArray());
+
+    }
+
+    public function store_v2(Request $request)
+    {
+        $request->validate([
+            'title' => 'string',
+            'content' => 'string',
+
+        ]);
+        $translates_key = ['es', 'ko', 'tr'];
+        $translatable_fields = ['title', 'body'];
+        $tr = new GoogleTranslate(); // Translates to 'en' from auto-detected language by default
+        $tr->setSource('en');
+        $translated = [];
+
+        $article = new Article();
+        $article->title = $request->title;
+        $article->body = $request->body;
+        $tr->setTarget('tr');
+        $article->title_tr = $tr->translate($request->title);
+        $article->body_tr = $tr->translate($request->body);
+        $tr->setTarget('es');
+        $article->title_es = $tr->translate($request->title);
+        $article->body_es = $tr->translate($request->body);
+        $tr->setTarget('ko');
+        $article->title_ko = $tr->translate($request->title);
+        $article->body_ko = $tr->translate($request->body);
+        $article->save();
+
     }
 }

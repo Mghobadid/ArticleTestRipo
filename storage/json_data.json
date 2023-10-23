@@ -1,0 +1,1752 @@
+{
+    "status": {
+        "timestamp": "2023-10-23T15:48:11.394Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 20,
+        "credit_count": 1,
+        "notice": "You have used 97% of your plan's monthly credit limit."
+    },
+    "data": {
+        "1": {
+            "id": 1,
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "category": "coin",
+            "description": "Bitcoin (BTC) is a cryptocurrency launched in 2010. Users are able to generate BTC through the process of mining. Bitcoin has a current supply of 19,521,900. The last known price of Bitcoin is 30,891.53290466 USD and is up 3.49 over the last 24 hours. It is currently trading on 10496 active market(s) with $19,698,865,816.56 traded over the last 24 hours. More information can be found at https:\/\/bitcoin.org\/.",
+            "slug": "bitcoin",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/1.png",
+            "subreddit": "bitcoin",
+            "notice": "",
+            "tags": [
+                "mineable",
+                "pow",
+                "sha-256",
+                "store-of-value",
+                "state-channel",
+                "coinbase-ventures-portfolio",
+                "three-arrows-capital-portfolio",
+                "polychain-capital-portfolio",
+                "binance-labs-portfolio",
+                "blockchain-capital-portfolio",
+                "boostvc-portfolio",
+                "cms-holdings-portfolio",
+                "dcg-portfolio",
+                "dragonfly-capital-portfolio",
+                "electric-capital-portfolio",
+                "fabric-ventures-portfolio",
+                "framework-ventures-portfolio",
+                "galaxy-digital-portfolio",
+                "huobi-capital-portfolio",
+                "alameda-research-portfolio",
+                "a16z-portfolio",
+                "1confirmation-portfolio",
+                "winklevoss-capital-portfolio",
+                "usv-portfolio",
+                "placeholder-ventures-portfolio",
+                "pantera-capital-portfolio",
+                "multicoin-capital-portfolio",
+                "paradigm-portfolio",
+                "bitcoin-ecosystem",
+                "ftx-bankruptcy-estate"
+            ],
+            "tag-names": [
+                "Mineable",
+                "PoW",
+                "SHA-256",
+                "Store Of Value",
+                "State Channel",
+                "Coinbase Ventures Portfolio",
+                "Three Arrows Capital Portfolio",
+                "Polychain Capital Portfolio",
+                "Binance Labs Portfolio",
+                "Blockchain Capital Portfolio",
+                "BoostVC Portfolio",
+                "CMS Holdings Portfolio",
+                "DCG Portfolio",
+                "DragonFly Capital Portfolio",
+                "Electric Capital Portfolio",
+                "Fabric Ventures Portfolio",
+                "Framework Ventures Portfolio",
+                "Galaxy Digital Portfolio",
+                "Huobi Capital Portfolio",
+                "Alameda Research Portfolio",
+                "a16z Portfolio",
+                "1Confirmation Portfolio",
+                "Winklevoss Capital Portfolio",
+                "USV Portfolio",
+                "Placeholder Ventures Portfolio",
+                "Pantera Capital Portfolio",
+                "Multicoin Capital Portfolio",
+                "Paradigm Portfolio",
+                "Bitcoin Ecosystem",
+                "FTX Bankruptcy Estate "
+            ],
+            "tag-groups": [
+                "OTHERS",
+                "ALGORITHM",
+                "ALGORITHM",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "PLATFORM",
+                "CATEGORY"
+            ],
+            "urls": {
+                "website": [
+                    "https:\/\/bitcoin.org\/"
+                ],
+                "twitter": [],
+                "message_board": [
+                    "https:\/\/bitcointalk.org"
+                ],
+                "chat": [],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/blockchain.info\/",
+                    "https:\/\/live.blockcypher.com\/btc\/",
+                    "https:\/\/blockchair.com\/bitcoin",
+                    "https:\/\/explorer.viabtc.com\/btc",
+                    "https:\/\/www.oklink.com\/btc"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/bitcoin"
+                ],
+                "technical_doc": [
+                    "https:\/\/bitcoin.org\/bitcoin.pdf"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/bitcoin\/bitcoin"
+                ],
+                "announcement": []
+            },
+            "platform": null,
+            "date_added": "2010-07-13T00:00:00.000Z",
+            "twitter_username": "",
+            "is_hidden": 0,
+            "date_launched": "2010-07-13T00:00:00.000Z",
+            "contract_address": [],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        },
+        "2": {
+            "id": 2,
+            "name": "Litecoin",
+            "symbol": "LTC",
+            "category": "coin",
+            "description": "Litecoin (LTC) is a cryptocurrency . Users are able to generate LTC through the process of mining. Litecoin has a current supply of 84,000,000 with 73,793,382.97358888 in circulation. The last known price of Litecoin is 66.03662883 USD and is up 3.26 over the last 24 hours. It is currently trading on 1013 active market(s) with $395,271,365.79 traded over the last 24 hours. More information can be found at https:\/\/litecoin.org\/.",
+            "slug": "litecoin",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/2.png",
+            "subreddit": "litecoin",
+            "notice": "",
+            "tags": [
+                "mineable",
+                "pow",
+                "scrypt",
+                "medium-of-exchange"
+            ],
+            "tag-names": [
+                "Mineable",
+                "PoW",
+                "Scrypt",
+                "Medium of Exchange"
+            ],
+            "tag-groups": [
+                "OTHERS",
+                "ALGORITHM",
+                "ALGORITHM",
+                "INDUSTRY"
+            ],
+            "urls": {
+                "website": [
+                    "https:\/\/litecoin.org\/"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/litecoin"
+                ],
+                "message_board": [
+                    "https:\/\/litecointalk.io\/",
+                    "https:\/\/litecoin-foundation.org\/"
+                ],
+                "chat": [
+                    "https:\/\/telegram.me\/litecoin"
+                ],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/blockchair.com\/litecoin",
+                    "https:\/\/chainz.cryptoid.info\/ltc\/",
+                    "http:\/\/explorer.litecoin.net\/chain\/Litecoin",
+                    "https:\/\/bscscan.com\/token\/0x4338665cbb7b2485a8855a139b75d5e34ab0db94"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/litecoin"
+                ],
+                "technical_doc": [],
+                "source_code": [
+                    "https:\/\/github.com\/litecoin-project\/litecoin"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=47417.0"
+                ]
+            },
+            "platform": {
+                "id": "2502",
+                "name": "Huobi Token",
+                "slug": "htx-token",
+                "symbol": "HT",
+                "token_address": "0xecb56cf772b5c9a6907fb7d32387da2fcbfb63b4"
+            },
+            "date_added": "2013-04-28T00:00:00.000Z",
+            "twitter_username": "litecoin",
+            "is_hidden": 0,
+            "date_launched": null,
+            "contract_address": [
+                {
+                    "contract_address": "0xecb56cf772b5c9a6907fb7d32387da2fcbfb63b4",
+                    "platform": {
+                        "name": "HECO",
+                        "coin": {
+                            "id": "2502",
+                            "name": "Huobi Token",
+                            "symbol": "HT",
+                            "slug": "htx-token"
+                        }
+                    }
+                },
+                {
+                    "contract_address": "0x4338665cbb7b2485a8855a139b75d5e34ab0db94",
+                    "platform": {
+                        "name": "BNB Smart Chain (BEP20)",
+                        "coin": {
+                            "id": "1839",
+                            "name": "BNB",
+                            "symbol": "BNB",
+                            "slug": "bnb"
+                        }
+                    }
+                },
+                {
+                    "contract_address": "0x13e93721dc992b3e14333dbdb48c0e7ec55431c3",
+                    "platform": {
+                        "name": "Hoo Smart Chain",
+                        "coin": {
+                            "id": "15165",
+                            "name": "Hoo Smart Chain",
+                            "symbol": "HSC",
+                            "slug": "hoo-smart-chain"
+                        }
+                    }
+                }
+            ],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        },
+        "3": {
+            "id": 3,
+            "name": "Namecoin",
+            "symbol": "NMC",
+            "category": "coin",
+            "description": "Namecoin (NMC) is a cryptocurrency . Users are able to generate NMC through the process of mining. Namecoin has a current supply of 14,736,400. The last known price of Namecoin is 1.22245961 USD and is down -4.98 over the last 24 hours. It is currently trading on 7 active market(s) with $6,323.52 traded over the last 24 hours. More information can be found at https:\/\/www.namecoin.org\/.",
+            "slug": "namecoin",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/3.png",
+            "subreddit": "namecoin",
+            "notice": "",
+            "tags": [
+                "mineable",
+                "pow",
+                "sha-256",
+                "platform"
+            ],
+            "tag-names": [
+                "Mineable",
+                "PoW",
+                "SHA-256",
+                "Platform"
+            ],
+            "tag-groups": [
+                "OTHERS",
+                "ALGORITHM",
+                "ALGORITHM",
+                "CATEGORY"
+            ],
+            "urls": {
+                "website": [
+                    "https:\/\/www.namecoin.org\/"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/Namecoin"
+                ],
+                "message_board": [],
+                "chat": [
+                    "https:\/\/www.namecoin.org\/resources\/chat\/"
+                ],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/nmc.tokenview.com\/",
+                    "https:\/\/www.namebrow.se\/",
+                    "https:\/\/namecha.in\/",
+                    "https:\/\/chainz.cryptoid.info\/nmc\/"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/namecoin"
+                ],
+                "technical_doc": [
+                    "https:\/\/www.namecoin.org\/resources\/whitepaper\/"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/namecoin"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/?topic=6017.0"
+                ]
+            },
+            "platform": null,
+            "date_added": "2013-04-28T00:00:00.000Z",
+            "twitter_username": "Namecoin",
+            "is_hidden": 0,
+            "date_launched": null,
+            "contract_address": [],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        },
+        "5": {
+            "id": 5,
+            "name": "Peercoin",
+            "symbol": "PPC",
+            "category": "coin",
+            "description": "Peercoin (PPC) is a cryptocurrency . Users are able to generate PPC through the process of mining. Peercoin has a current supply of 28,428,173.04671735. The last known price of Peercoin is 0.33019576 USD and is up 8.86 over the last 24 hours. It is currently trading on 29 active market(s) with $5,051.29 traded over the last 24 hours. More information can be found at http:\/\/www.peercoin.net.",
+            "slug": "peercoin",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/5.png",
+            "subreddit": "peercoin",
+            "notice": "",
+            "tags": [
+                "mineable",
+                "hybrid-pow-pos",
+                "sha-256",
+                "medium-of-exchange",
+                "store-of-value",
+                "payments",
+                "staking"
+            ],
+            "tag-names": [
+                "Mineable",
+                "Hybrid - PoW & PoS",
+                "SHA-256",
+                "Medium of Exchange",
+                "Store Of Value",
+                "Payments",
+                "Staking"
+            ],
+            "tag-groups": [
+                "OTHERS",
+                "ALGORITHM",
+                "ALGORITHM",
+                "INDUSTRY",
+                "CATEGORY",
+                "INDUSTRY",
+                "CATEGORY"
+            ],
+            "urls": {
+                "website": [
+                    "http:\/\/www.peercoin.net"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/PeercoinPPC"
+                ],
+                "message_board": [
+                    "https:\/\/talk.peercoin.net"
+                ],
+                "chat": [
+                    "https:\/\/t.me\/peercoin",
+                    "https:\/\/discord.gg\/m294ReV"
+                ],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/chainz.cryptoid.info\/ppc\/",
+                    "https:\/\/explorer.peercoin.net\/",
+                    "https:\/\/etherscan.io\/token\/0x044d078F1c86508e13328842Cc75AC021B272958",
+                    "https:\/\/polygonscan.com\/token\/0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/peercoin"
+                ],
+                "technical_doc": [
+                    "https:\/\/docs.peercoin.net\/"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/peercoin\/peercoin"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=101820.0"
+                ]
+            },
+            "platform": {
+                "id": "1027",
+                "name": "Ethereum",
+                "slug": "ethereum",
+                "symbol": "ETH",
+                "token_address": "0x044d078F1c86508e13328842Cc75AC021B272958"
+            },
+            "date_added": "2013-04-28T00:00:00.000Z",
+            "twitter_username": "PeercoinPPC",
+            "is_hidden": 0,
+            "date_launched": null,
+            "contract_address": [
+                {
+                    "contract_address": "0x044d078F1c86508e13328842Cc75AC021B272958",
+                    "platform": {
+                        "name": "Ethereum",
+                        "coin": {
+                            "id": "1027",
+                            "name": "Ethereum",
+                            "symbol": "ETH",
+                            "slug": "ethereum"
+                        }
+                    }
+                },
+                {
+                    "contract_address": "0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65",
+                    "platform": {
+                        "name": "Polygon",
+                        "coin": {
+                            "id": "3890",
+                            "name": "Polygon",
+                            "symbol": "MATIC",
+                            "slug": "polygon"
+                        }
+                    }
+                }
+            ],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        },
+        "52": {
+            "id": 52,
+            "name": "XRP",
+            "symbol": "XRP",
+            "category": "coin",
+            "description": "XRP (XRP) is a cryptocurrency . XRP has a current supply of 99,988,362,642 with 53,441,027,384 in circulation. The last known price of XRP is 0.53552074 USD and is up 3.37 over the last 24 hours. It is currently trading on 1120 active market(s) with $1,181,044,273.63 traded over the last 24 hours. More information can be found at https:\/\/xrpl.org\/.",
+            "slug": "xrp",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/52.png",
+            "subreddit": "ripple",
+            "notice": "",
+            "tags": [
+                "medium-of-exchange",
+                "enterprise-solutions",
+                "arrington-xrp-capital-portfolio",
+                "galaxy-digital-portfolio",
+                "a16z-portfolio",
+                "pantera-capital-portfolio",
+                "ftx-bankruptcy-estate"
+            ],
+            "tag-names": [
+                "Medium of Exchange",
+                "Enterprise Solutions",
+                "Arrington XRP Capital Portfolio",
+                "Galaxy Digital Portfolio",
+                "a16z Portfolio",
+                "Pantera Capital Portfolio",
+                "FTX Bankruptcy Estate "
+            ],
+            "tag-groups": [
+                "INDUSTRY",
+                "INDUSTRY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY"
+            ],
+            "urls": {
+                "website": [
+                    "https:\/\/xrpl.org\/"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/Ripple"
+                ],
+                "message_board": [
+                    "http:\/\/www.xrpchat.com\/"
+                ],
+                "chat": [],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/livenet.xrpl.org\/",
+                    "https:\/\/bithomp.com\/explorer\/",
+                    "https:\/\/xrpscan.com\/",
+                    "https:\/\/blockchair.com\/ripple",
+                    "https:\/\/bscscan.com\/token\/0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/ripple"
+                ],
+                "technical_doc": [
+                    "https:\/\/ripple.com\/files\/ripple_consensus_whitepaper.pdf"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/ripple\/rippled"
+                ],
+                "announcement": []
+            },
+            "platform": {
+                "id": "1839",
+                "name": "BNB",
+                "slug": "bnb",
+                "symbol": "BNB",
+                "token_address": "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe"
+            },
+            "date_added": "2013-08-04T00:00:00.000Z",
+            "twitter_username": "Ripple",
+            "is_hidden": 0,
+            "date_launched": null,
+            "contract_address": [
+                {
+                    "contract_address": "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe",
+                    "platform": {
+                        "name": "BNB Smart Chain (BEP20)",
+                        "coin": {
+                            "id": "1839",
+                            "name": "BNB",
+                            "symbol": "BNB",
+                            "slug": "bnb"
+                        }
+                    }
+                },
+                {
+                    "contract_address": "0x9eaefb09fe4aabfbe6b1ca316a3c36afc83a393f",
+                    "platform": {
+                        "name": "Klaytn",
+                        "coin": {
+                            "id": "4256",
+                            "name": "Klaytn",
+                            "symbol": "KLAY",
+                            "slug": "klaytn"
+                        }
+                    }
+                }
+            ],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        },
+        "74": {
+            "id": 74,
+            "name": "Dogecoin",
+            "symbol": "DOGE",
+            "category": "coin",
+            "description": "Dogecoin (DOGE) is a cryptocurrency . Users are able to generate DOGE through the process of mining. Dogecoin has a current supply of 141,530,676,383.70526. The last known price of Dogecoin is 0.06437175 USD and is up 5.99 over the last 24 hours. It is currently trading on 811 active market(s) with $429,478,229.32 traded over the last 24 hours. More information can be found at http:\/\/dogecoin.com\/.",
+            "slug": "dogecoin",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/74.png",
+            "subreddit": "dogecoin",
+            "notice": "",
+            "tags": [
+                "mineable",
+                "pow",
+                "scrypt",
+                "medium-of-exchange",
+                "memes",
+                "payments",
+                "doggone-doggerel",
+                "bnb-chain",
+                "ftx-bankruptcy-estate"
+            ],
+            "tag-names": [
+                "Mineable",
+                "PoW",
+                "Scrypt",
+                "Medium of Exchange",
+                "Memes",
+                "Payments",
+                "Doggone Doggerel",
+                "BNB Chain",
+                "FTX Bankruptcy Estate "
+            ],
+            "tag-groups": [
+                "OTHERS",
+                "ALGORITHM",
+                "ALGORITHM",
+                "INDUSTRY",
+                "INDUSTRY",
+                "INDUSTRY",
+                "CATEGORY",
+                "PLATFORM",
+                "CATEGORY"
+            ],
+            "urls": {
+                "website": [
+                    "http:\/\/dogecoin.com\/"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/dogecoin"
+                ],
+                "message_board": [],
+                "chat": [
+                    "http:\/\/webchat.freenode.net\/?nick=Shibe..&channels=%23dogecoin&prompt=1"
+                ],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/blockchair.com\/dogecoin",
+                    "http:\/\/dogechain.info\/chain\/Dogecoin",
+                    "https:\/\/explorer.viabtc.com\/doge",
+                    "https:\/\/bscscan.com\/token\/0xba2ae424d960c26247dd6c32edc70b295c744c43"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/dogecoin"
+                ],
+                "technical_doc": [
+                    "https:\/\/github.com\/dogecoin\/dogecoin\/blob\/master\/README.md"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/dogecoin\/dogecoin"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=361813.0"
+                ]
+            },
+            "platform": null,
+            "date_added": "2013-12-15T00:00:00.000Z",
+            "twitter_username": "dogecoin",
+            "is_hidden": 0,
+            "date_launched": null,
+            "contract_address": [
+                {
+                    "contract_address": "0xba2ae424d960c26247dd6c32edc70b295c744c43",
+                    "platform": {
+                        "name": "BNB Smart Chain (BEP20)",
+                        "coin": {
+                            "id": "1839",
+                            "name": "BNB",
+                            "symbol": "BNB",
+                            "slug": "bnb"
+                        }
+                    }
+                }
+            ],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": true
+        },
+        "77": {
+            "id": 77,
+            "name": "Diamond",
+            "symbol": "DMD",
+            "category": "coin",
+            "description": "Diamond (DMD) is a cryptocurrency . Diamond has a current supply of 3,781,087.18103773. The last known price of Diamond is 2.99188731 USD and is up 4.57 over the last 24 hours. It is currently trading on 8 active market(s) with $41,191.12 traded over the last 24 hours. More information can be found at http:\/\/bit.diamonds.",
+            "slug": "diamond",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/77.png",
+            "subreddit": "dmd",
+            "notice": "",
+            "tags": [
+                "masternodes",
+                "staking"
+            ],
+            "tag-names": [
+                "Masternodes",
+                "Staking"
+            ],
+            "tag-groups": [
+                "CATEGORY",
+                "CATEGORY"
+            ],
+            "urls": {
+                "website": [
+                    "http:\/\/bit.diamonds"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/dmdcoin"
+                ],
+                "message_board": [],
+                "chat": [
+                    "http:\/\/dmdcoin.slack.com\/"
+                ],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/chainz.cryptoid.info\/dmd\/",
+                    "https:\/\/masternodes.online\/currencies\/DMD\/",
+                    "https:\/\/dmd.tokenview.com\/en"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/dmd"
+                ],
+                "technical_doc": [
+                    "https:\/\/bit.diamonds\/DMD_WP.pdf"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/DMDcoin\/Diamond"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=580725.0"
+                ]
+            },
+            "platform": null,
+            "date_added": "2013-12-19T00:00:00.000Z",
+            "twitter_username": "dmdcoin",
+            "is_hidden": 0,
+            "date_launched": null,
+            "contract_address": [],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        },
+        "90": {
+            "id": 90,
+            "name": "Dimecoin",
+            "symbol": "DIME",
+            "category": "coin",
+            "description": "Dimecoin (DIME) is a cryptocurrency launched in 2013. Users are able to generate DIME through the process of mining. Dimecoin has a current supply of 555,998,059,584 with 478,333,438,962 in circulation. The last known price of Dimecoin is 0.00001681 USD and is up 3.35 over the last 24 hours. It is currently trading on 9 active market(s) with $0.00 traded over the last 24 hours. More information can be found at https:\/\/www.dimecoinnetwork.com\/.",
+            "slug": "dimecoin",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/90.png",
+            "subreddit": "dimecoin",
+            "notice": "",
+            "tags": [
+                "mineable",
+                "pow",
+                "quark"
+            ],
+            "tag-names": [
+                "Mineable",
+                "PoW",
+                "Quark"
+            ],
+            "tag-groups": [
+                "OTHERS",
+                "ALGORITHM",
+                "ALGORITHM"
+            ],
+            "urls": {
+                "website": [
+                    "https:\/\/www.dimecoinnetwork.com\/"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/Dimecoin"
+                ],
+                "message_board": [
+                    "https:\/\/dimecoinnetwork.medium.com\/"
+                ],
+                "chat": [
+                    "https:\/\/t.me\/Dimecoinofficialpublic",
+                    "https:\/\/discord.gg\/JqcKF4v"
+                ],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/chainz.cryptoid.info\/dime\/",
+                    "http:\/\/www.thebeepool.com\/explorer\/dime"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/dimecoin"
+                ],
+                "technical_doc": [
+                    "http:\/\/www.dimecoinnetwork.com\/wp-content\/uploads\/2021\/01\/Dimecoinv1.05.pdf"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/dime-coin\/dimecoin"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=446388.0"
+                ]
+            },
+            "platform": null,
+            "date_added": "2014-01-06T00:00:00.000Z",
+            "twitter_username": "Dimecoin",
+            "is_hidden": 0,
+            "date_launched": "2013-12-23T00:00:00.000Z",
+            "contract_address": [],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": [
+                "PoS",
+                "PoW",
+                "Quark",
+                "Store Of Value",
+                "Masternodes",
+                "Payments",
+                "Hybrid - PoW & DPoS",
+                "Fiat",
+                "Mobile Payment",
+                "PoS+"
+            ],
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        },
+        "109": {
+            "id": 109,
+            "name": "DigiByte",
+            "symbol": "DGB",
+            "category": "coin",
+            "description": "DigiByte (DGB) is a cryptocurrency . Users are able to generate DGB through the process of mining. DigiByte has a current supply of 16,585,065,460.371475. The last known price of DigiByte is 0.00667581 USD and is up 3.58 over the last 24 hours. It is currently trading on 131 active market(s) with $2,732,569.77 traded over the last 24 hours. More information can be found at https:\/\/digibyte.org\/.",
+            "slug": "digibyte",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/109.png",
+            "subreddit": "Digibyte",
+            "notice": "",
+            "tags": [
+                "mineable",
+                "pow",
+                "multiple-algorithms",
+                "medium-of-exchange",
+                "collectibles-nfts",
+                "iot",
+                "payments"
+            ],
+            "tag-names": [
+                "Mineable",
+                "PoW",
+                "Multiple algorithms",
+                "Medium of Exchange",
+                "Collectibles & NFTs",
+                "IoT",
+                "Payments"
+            ],
+            "tag-groups": [
+                "OTHERS",
+                "ALGORITHM",
+                "ALGORITHM",
+                "INDUSTRY",
+                "CATEGORY",
+                "INDUSTRY",
+                "INDUSTRY"
+            ],
+            "urls": {
+                "website": [
+                    "https:\/\/digibyte.org\/",
+                    "https:\/\/dgbwiki.com\/"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/DigiByteCoin"
+                ],
+                "message_board": [
+                    "https:\/\/dgbforum.com\/",
+                    "https:\/\/medium.com\/@DigiByte_Official"
+                ],
+                "chat": [
+                    "https:\/\/t.me\/DigiByteCoin",
+                    "https:\/\/t.me\/DGBalerts"
+                ],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/digiexplorer.info\/",
+                    "https:\/\/chainz.cryptoid.info\/dgb\/",
+                    "https:\/\/dgb.ccore.online\/",
+                    "https:\/\/dgb.tokenview.com\/en\/",
+                    "https:\/\/www.digiassets.info\/"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/Digibyte"
+                ],
+                "technical_doc": [
+                    "https:\/\/digibyte.io\/docs\/infopaper.pdf"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/DigiByte-Core"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=408268.0"
+                ]
+            },
+            "platform": null,
+            "date_added": "2014-02-06T00:00:00.000Z",
+            "twitter_username": "DigiByteCoin",
+            "is_hidden": 0,
+            "date_launched": null,
+            "contract_address": [],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        },
+        "131": {
+            "id": 131,
+            "name": "Dash",
+            "symbol": "DASH",
+            "category": "coin",
+            "description": "Dash (DASH) is a cryptocurrency launched in 2014. Users are able to generate DASH through the process of mining. Dash has a current supply of 11,505,708.92817255. The last known price of Dash is 26.35311791 USD and is up 2.51 over the last 24 hours. It is currently trading on 391 active market(s) with $38,762,464.83 traded over the last 24 hours. More information can be found at https:\/\/www.dash.org\/.",
+            "slug": "dash",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/131.png",
+            "subreddit": "dashpay",
+            "notice": "",
+            "tags": [
+                "mineable",
+                "hybrid-pow-pos",
+                "x11",
+                "medium-of-exchange",
+                "masternodes",
+                "dao",
+                "governance",
+                "alleged-sec-securities"
+            ],
+            "tag-names": [
+                "Mineable",
+                "Hybrid - PoW & PoS",
+                "X11",
+                "Medium of Exchange",
+                "Masternodes",
+                "DAO",
+                "Governance",
+                "Alleged SEC Securities"
+            ],
+            "tag-groups": [
+                "OTHERS",
+                "ALGORITHM",
+                "ALGORITHM",
+                "INDUSTRY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY"
+            ],
+            "urls": {
+                "website": [
+                    "https:\/\/www.dash.org\/",
+                    "https:\/\/newsroom.dash.org\/"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/Dashpay"
+                ],
+                "message_board": [
+                    "https:\/\/www.dash.org\/forum\/"
+                ],
+                "chat": [
+                    "https:\/\/t.me\/dash_chat",
+                    "https:\/\/discord.com\/invite\/PXbUxJB"
+                ],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/explorer.dash.org",
+                    "https:\/\/insight.dash.org\/insight\/",
+                    "https:\/\/chainz.cryptoid.info\/dash\/",
+                    "https:\/\/blockchair.com\/dash"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/dashpay"
+                ],
+                "technical_doc": [
+                    "https:\/\/docs.dash.org\/"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/dashpay\/dash"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=421615.0"
+                ]
+            },
+            "platform": null,
+            "date_added": "2014-02-14T00:00:00.000Z",
+            "twitter_username": "Dashpay",
+            "is_hidden": 0,
+            "date_launched": "2014-01-18T00:00:00.000Z",
+            "contract_address": [],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        },
+        "132": {
+            "id": 132,
+            "name": "Counterparty",
+            "symbol": "XCP",
+            "category": "coin",
+            "description": "Counterparty (XCP) is a cryptocurrency . Counterparty has a current supply of 2,613,892. The last known price of Counterparty is 2.65193002 USD and is down -0.65 over the last 24 hours. It is currently trading on 3 active market(s) with $96.08 traded over the last 24 hours. More information can be found at http:\/\/counterparty.io\/.",
+            "slug": "counterparty",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/132.png",
+            "subreddit": "counterparty_xcp",
+            "notice": "",
+            "tags": [
+                "pow"
+            ],
+            "tag-names": [
+                "PoW"
+            ],
+            "tag-groups": [
+                "ALGORITHM"
+            ],
+            "urls": {
+                "website": [
+                    "http:\/\/counterparty.io\/"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/CounterpartyXCP"
+                ],
+                "message_board": [
+                    "https:\/\/counterpartytalk.org\/"
+                ],
+                "chat": [],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/xchain.io\/",
+                    "https:\/\/counterpartychain.io\/"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/counterparty_xcp"
+                ],
+                "technical_doc": [
+                    "https:\/\/github.com\/CounterpartyXCP\/Documentation\/blob\/master\/Developers\/protocol_specification.md"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/CounterpartyXCP"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=395761.0"
+                ]
+            },
+            "platform": null,
+            "date_added": "2014-02-15T00:00:00.000Z",
+            "twitter_username": "CounterpartyXCP",
+            "is_hidden": 0,
+            "date_launched": null,
+            "contract_address": [],
+            "self_reported_circulating_supply": 2615141.6445785,
+            "self_reported_tags": null,
+            "self_reported_market_cap": 6935172.624595143,
+            "infinite_supply": false
+        },
+        "213": {
+            "id": 213,
+            "name": "MonaCoin",
+            "symbol": "MONA",
+            "category": "coin",
+            "description": "MonaCoin (MONA) is a cryptocurrency . Users are able to generate MONA through the process of mining. MonaCoin has a current supply of 65,729,674.871168. The last known price of MonaCoin is 0.39474873 USD and is up 2.12 over the last 24 hours. It is currently trading on 22 active market(s) with $79,537.32 traded over the last 24 hours. More information can be found at http:\/\/monacoin.org.",
+            "slug": "monacoin",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/213.png",
+            "subreddit": "monacoin",
+            "notice": "",
+            "tags": [
+                "mineable",
+                "pow",
+                "lyra2rev2",
+                "medium-of-exchange",
+                "memes",
+                "payments"
+            ],
+            "tag-names": [
+                "Mineable",
+                "PoW",
+                "Lyra2REv2",
+                "Medium of Exchange",
+                "Memes",
+                "Payments"
+            ],
+            "tag-groups": [
+                "OTHERS",
+                "ALGORITHM",
+                "ALGORITHM",
+                "INDUSTRY",
+                "INDUSTRY",
+                "INDUSTRY"
+            ],
+            "urls": {
+                "website": [
+                    "http:\/\/monacoin.org"
+                ],
+                "twitter": [],
+                "message_board": [],
+                "chat": [
+                    "https:\/\/web3.askmona.org\/"
+                ],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/mona.chainsight.info\/",
+                    "https:\/\/blockbook.electrum-mona.org\/",
+                    "https:\/\/mona.tokenview.com\/",
+                    "https:\/\/bchain.info\/MONA\/",
+                    "https:\/\/chaintools.mona-coin.de\/"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/monacoin"
+                ],
+                "technical_doc": [
+                    "https:\/\/monacoin.org\/#about"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/monacoinproject\/monacoin"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=392436.0"
+                ]
+            },
+            "platform": null,
+            "date_added": "2014-03-20T00:00:00.000Z",
+            "twitter_username": "",
+            "is_hidden": 0,
+            "date_launched": null,
+            "contract_address": [],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        },
+        "258": {
+            "id": 258,
+            "name": "Groestlcoin",
+            "symbol": "GRS",
+            "category": "coin",
+            "description": "Groestlcoin (GRS) is a cryptocurrency . Users are able to generate GRS through the process of mining. Groestlcoin has a current supply of 83,656,168.88736624. The last known price of Groestlcoin is 0.45564335 USD and is up 0.63 over the last 24 hours. It is currently trading on 29 active market(s) with $6,369,253.96 traded over the last 24 hours. More information can be found at https:\/\/www.groestlcoin.org\/.",
+            "slug": "groestlcoin",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/258.png",
+            "subreddit": "groestlcoin",
+            "notice": "",
+            "tags": [
+                "mineable",
+                "pow",
+                "groestl",
+                "medium-of-exchange"
+            ],
+            "tag-names": [
+                "Mineable",
+                "PoW",
+                "Groestl",
+                "Medium of Exchange"
+            ],
+            "tag-groups": [
+                "OTHERS",
+                "ALGORITHM",
+                "ALGORITHM",
+                "INDUSTRY"
+            ],
+            "urls": {
+                "website": [
+                    "https:\/\/www.groestlcoin.org\/"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/GroestlcoinTeam"
+                ],
+                "message_board": [
+                    "https:\/\/www.groestlcoin.org\/forum",
+                    "https:\/\/medium.com\/@groestlcoinnews"
+                ],
+                "chat": [
+                    "https:\/\/t.me\/groestl",
+                    "https:\/\/discord.com\/invite\/vCKxQBz"
+                ],
+                "facebook": [
+                    "https:\/\/www.facebook.com\/groestlcoin\/"
+                ],
+                "explorer": [
+                    "https:\/\/chainz.cryptoid.info\/grs\/",
+                    "https:\/\/esplora.groestlcoin.org\/",
+                    "https:\/\/blockbook.groestlcoin.org\/",
+                    "https:\/\/groestlsight.groestlcoin.org\/",
+                    "https:\/\/blockchair.com\/groestlcoin"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/groestlcoin"
+                ],
+                "technical_doc": [
+                    "http:\/\/www.groestl.info\/groestl-implementation-guide.pdf"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/Groestlcoin"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=525926.0"
+                ]
+            },
+            "platform": null,
+            "date_added": "2014-04-11T00:00:00.000Z",
+            "twitter_username": "GroestlcoinTeam",
+            "is_hidden": 0,
+            "date_launched": null,
+            "contract_address": [],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": [
+                "PoW",
+                "Groestl",
+                "Grostl-512",
+                "Medium of Exchange",
+                "Store Of Value"
+            ],
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        },
+        "268": {
+            "id": 268,
+            "name": "WhiteCoin",
+            "symbol": "XWC",
+            "category": "coin",
+            "description": "WhiteCoin (XWC) is a cryptocurrency launched in 2014. WhiteCoin has a current supply of 971,792,390 with 764,324,623.4110321 in circulation. The last known price of WhiteCoin is 0.05470506 USD and is up 0.00 over the last 24 hours. It is currently trading on 14 active market(s) with $0.00 traded over the last 24 hours. More information can be found at http:\/\/whitecoin.info\/.",
+            "slug": "whitecoin",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/268.png",
+            "subreddit": "whitecoin",
+            "notice": "",
+            "tags": [
+                "platform",
+                "interoperability",
+                "staking",
+                "rpos"
+            ],
+            "tag-names": [
+                "Platform",
+                "Interoperability",
+                "Staking",
+                "rPOS"
+            ],
+            "tag-groups": [
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "ALGORITHM"
+            ],
+            "urls": {
+                "website": [
+                    "http:\/\/whitecoin.info\/",
+                    "http:\/\/xwc.com\/"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/WhiteCoiner"
+                ],
+                "message_board": [],
+                "chat": [
+                    "https:\/\/discordapp.com\/invite\/GbpdbMt"
+                ],
+                "facebook": [],
+                "explorer": [
+                    "http:\/\/explorer.whitecoin.info\/#\/"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/whitecoin"
+                ],
+                "technical_doc": [
+                    "https:\/\/www.whitecoin.info\/pdf\/Whitecoin%20Technical%20White%20Paper_en.pdf"
+                ],
+                "source_code": [],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=804288.0"
+                ]
+            },
+            "platform": null,
+            "date_added": "2014-04-18T00:00:00.000Z",
+            "twitter_username": "WhiteCoiner",
+            "is_hidden": 0,
+            "date_launched": "2014-04-01T00:00:00.000Z",
+            "contract_address": [],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        },
+        "328": {
+            "id": 328,
+            "name": "Monero",
+            "symbol": "XMR",
+            "category": "coin",
+            "description": "Monero (XMR) is a cryptocurrency . Users are able to generate XMR through the process of mining. Monero has a current supply of 18,348,507.07631257. The last known price of Monero is 159.21058028 USD and is up 1.08 over the last 24 hours. It is currently trading on 251 active market(s) with $69,934,784.75 traded over the last 24 hours. More information can be found at https:\/\/www.getmonero.org\/.",
+            "slug": "monero",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/328.png",
+            "subreddit": "monero",
+            "notice": "",
+            "tags": [
+                "mineable",
+                "pow",
+                "medium-of-exchange",
+                "privacy",
+                "ringct",
+                "boostvc-portfolio",
+                "electric-capital-portfolio",
+                "galaxy-digital-portfolio"
+            ],
+            "tag-names": [
+                "Mineable",
+                "PoW",
+                "Medium of Exchange",
+                "Privacy",
+                "RingCT",
+                "BoostVC Portfolio",
+                "Electric Capital Portfolio",
+                "Galaxy Digital Portfolio"
+            ],
+            "tag-groups": [
+                "OTHERS",
+                "ALGORITHM",
+                "INDUSTRY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY"
+            ],
+            "urls": {
+                "website": [
+                    "https:\/\/www.getmonero.org\/"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/monero"
+                ],
+                "message_board": [
+                    "https:\/\/forum.getmonero.org\/",
+                    "https:\/\/forum.monero.space\/"
+                ],
+                "chat": [
+                    "https:\/\/telegram.me\/monero"
+                ],
+                "facebook": [],
+                "explorer": [
+                    "http:\/\/moneroblocks.info\/",
+                    "http:\/\/chainradar.com\/xmr\/blocks",
+                    "https:\/\/blockchair.com\/monero"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/monero"
+                ],
+                "technical_doc": [
+                    "https:\/\/github.com\/monero-project\/research-lab\/blob\/master\/whitepaper\/whitepaper.pdf"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/monero-project\/monero"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=583449.0"
+                ]
+            },
+            "platform": {
+                "id": "5604",
+                "name": "Secret",
+                "slug": "secret",
+                "symbol": "SCRT",
+                "token_address": "secret19ungtd2c7srftqdwgq0dspwvrw63dhu79qxv88"
+            },
+            "date_added": "2014-05-21T00:00:00.000Z",
+            "twitter_username": "monero",
+            "is_hidden": 0,
+            "date_launched": null,
+            "contract_address": [
+                {
+                    "contract_address": "secret19ungtd2c7srftqdwgq0dspwvrw63dhu79qxv88",
+                    "platform": {
+                        "name": "Secret",
+                        "coin": {
+                            "id": "5604",
+                            "name": "Secret",
+                            "symbol": "SCRT",
+                            "slug": "secret"
+                        }
+                    }
+                }
+            ],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": true
+        },
+        "372": {
+            "id": 372,
+            "name": "Bytecoin",
+            "symbol": "BCN",
+            "category": "coin",
+            "description": "Bytecoin (BCN) is a cryptocurrency . Users are able to generate BCN through the process of mining. Bytecoin has a current supply of 184,066,828,814.058014. The last known price of Bytecoin is 0.00002799 USD and is down -1.20 over the last 24 hours. It is currently trading on 14 active market(s) with $36,398.02 traded over the last 24 hours. More information can be found at https:\/\/bytecoin.org\/.",
+            "slug": "bytecoin-bcn",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/372.png",
+            "subreddit": "BytecoinBCN",
+            "notice": "",
+            "tags": [
+                "mineable",
+                "pow",
+                "cryptonight",
+                "medium-of-exchange",
+                "privacy",
+                "payments"
+            ],
+            "tag-names": [
+                "Mineable",
+                "PoW",
+                "CryptoNight",
+                "Medium of Exchange",
+                "Privacy",
+                "Payments"
+            ],
+            "tag-groups": [
+                "OTHERS",
+                "ALGORITHM",
+                "ALGORITHM",
+                "INDUSTRY",
+                "CATEGORY",
+                "INDUSTRY"
+            ],
+            "urls": {
+                "website": [
+                    "https:\/\/bytecoin.org\/",
+                    "https:\/\/bytecoin-market.com\/"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/Bytecoin_BCN"
+                ],
+                "message_board": [
+                    "https:\/\/bytecointalk.org\/"
+                ],
+                "chat": [
+                    "https:\/\/t.me\/bytecoin_chat"
+                ],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/explorer.bytecoin.org\/",
+                    "https:\/\/minergate.com\/blockchain\/bcn\/blocks",
+                    "http:\/\/chainradar.com\/bcn\/blocks"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/BytecoinBCN"
+                ],
+                "technical_doc": [
+                    "https:\/\/bytecoin.org\/old\/whitepaper.pdf"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/bcndev"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=512747.0"
+                ]
+            },
+            "platform": null,
+            "date_added": "2014-06-17T00:00:00.000Z",
+            "twitter_username": "Bytecoin_BCN",
+            "is_hidden": 0,
+            "date_launched": null,
+            "contract_address": [],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        },
+        "463": {
+            "id": 463,
+            "name": "BitShares",
+            "symbol": "BTS",
+            "category": "coin",
+            "description": "BitShares (BTS) is a cryptocurrency . BitShares has a current supply of 2,995,119,814.66573. The last known price of BitShares is 0.00988266 USD and is up 1.49 over the last 24 hours. It is currently trading on 57 active market(s) with $665,708.58 traded over the last 24 hours. More information can be found at https:\/\/bitshares.github.io.",
+            "slug": "bitshares",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/463.png",
+            "subreddit": "bitshares",
+            "notice": "",
+            "tags": [
+                "pos",
+                "sha-512",
+                "marketplace",
+                "decentralized-exchange-dex-token",
+                "defi",
+                "synthetics"
+            ],
+            "tag-names": [
+                "PoS",
+                "SHA-512",
+                "Marketplace",
+                "Decentralized Exchange (DEX) Token",
+                "DeFi",
+                "Synthetics"
+            ],
+            "tag-groups": [
+                "ALGORITHM",
+                "ALGORITHM",
+                "INDUSTRY",
+                "CATEGORY",
+                "CATEGORY",
+                "PLATFORM"
+            ],
+            "urls": {
+                "website": [
+                    "https:\/\/bitshares.github.io"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/BitSharesGroup"
+                ],
+                "message_board": [
+                    "https:\/\/bitsharestalk.org\/"
+                ],
+                "chat": [
+                    "https:\/\/t.me\/BitSharesGroup"
+                ],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/bitshares.network",
+                    "https:\/\/blocksights.info"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/bitshares"
+                ],
+                "technical_doc": [
+                    "https:\/\/bitshares.github.io\/docs\/#\/whitepaper"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/bitshares"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=1949828"
+                ]
+            },
+            "platform": null,
+            "date_added": "2014-07-21T00:00:00.000Z",
+            "twitter_username": "BitSharesGroup",
+            "is_hidden": 0,
+            "date_launched": null,
+            "contract_address": [],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        },
+        "512": {
+            "id": 512,
+            "name": "Stellar",
+            "symbol": "XLM",
+            "category": "coin",
+            "description": "Stellar (XLM) is a cryptocurrency . Stellar has a current supply of 50,001,787,139.45532 with 27,802,405,013.599953 in circulation. The last known price of Stellar is 0.11242323 USD and is up 2.80 over the last 24 hours. It is currently trading on 538 active market(s) with $114,653,749.36 traded over the last 24 hours. More information can be found at https:\/\/www.stellar.org.",
+            "slug": "stellar",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/512.png",
+            "subreddit": "stellar",
+            "notice": "",
+            "tags": [
+                "medium-of-exchange",
+                "enterprise-solutions",
+                "decentralized-exchange-dex-token",
+                "smart-contracts",
+                "hashkey-capital-portfolio"
+            ],
+            "tag-names": [
+                "Medium of Exchange",
+                "Enterprise Solutions",
+                "Decentralized Exchange (DEX) Token",
+                "Smart Contracts",
+                "Hashkey Capital Portfolio"
+            ],
+            "tag-groups": [
+                "INDUSTRY",
+                "INDUSTRY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY"
+            ],
+            "urls": {
+                "website": [
+                    "https:\/\/www.stellar.org"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/StellarOrg"
+                ],
+                "message_board": [
+                    "https:\/\/stellarcommunity.org\/",
+                    "https:\/\/galactictalk.org\/"
+                ],
+                "chat": [
+                    "http:\/\/slack.stellar.org\/"
+                ],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/dashboard.stellar.org\/",
+                    "https:\/\/stellar.expert\/explorer\/public\/",
+                    "https:\/\/steexp.com\/",
+                    "https:\/\/blockchair.com\/stellar"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/stellar"
+                ],
+                "technical_doc": [
+                    "https:\/\/www.stellar.org\/papers\/stellar-consensus-protocol.pdf"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/stellar\/stellar-core"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=1428573.0"
+                ]
+            },
+            "platform": null,
+            "date_added": "2014-08-05T00:00:00.000Z",
+            "twitter_username": "StellarOrg",
+            "is_hidden": 0,
+            "date_launched": null,
+            "contract_address": [],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        },
+        "541": {
+            "id": 541,
+            "name": "Syscoin",
+            "symbol": "SYS",
+            "category": "coin",
+            "description": "Syscoin (SYS) is a cryptocurrency launched in 2014. Users are able to generate SYS through the process of mining. Syscoin has a current supply of 741,362,205.0146663. The last known price of Syscoin is 0.08376658 USD and is up 2.54 over the last 24 hours. It is currently trading on 44 active market(s) with $1,544,897.22 traded over the last 24 hours. More information can be found at http:\/\/syscoin.org.",
+            "slug": "syscoin",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/541.png",
+            "subreddit": "SysCoin",
+            "notice": "",
+            "tags": [
+                "mineable",
+                "pow",
+                "platform",
+                "enterprise-solutions",
+                "collectibles-nfts",
+                "zero-knowledge-proofs",
+                "masternodes",
+                "scaling",
+                "dwf-labs-portfolio"
+            ],
+            "tag-names": [
+                "Mineable",
+                "PoW",
+                "Platform",
+                "Enterprise Solutions",
+                "Collectibles & NFTs",
+                "Zero Knowledge Proofs",
+                "Masternodes",
+                "Scaling",
+                "DWF Labs Portfolio"
+            ],
+            "tag-groups": [
+                "OTHERS",
+                "ALGORITHM",
+                "CATEGORY",
+                "INDUSTRY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY",
+                "CATEGORY"
+            ],
+            "urls": {
+                "website": [
+                    "http:\/\/syscoin.org"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/syscoin"
+                ],
+                "message_board": [
+                    "https:\/\/syscoin.org\/news"
+                ],
+                "chat": [
+                    "https:\/\/t.me\/Syscoin_Official",
+                    "https:\/\/discord.gg\/d73qTF9"
+                ],
+                "facebook": [
+                    "https:\/\/www.facebook.com\/syscoin"
+                ],
+                "explorer": [
+                    "https:\/\/explorer.syscoin.org",
+                    "https:\/\/blockbook.elint.services\/blocks",
+                    "https:\/\/chainz.cryptoid.info\/sys"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/SysCoin"
+                ],
+                "technical_doc": [
+                    "https:\/\/syscoin.org\/research-whitepapers"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/syscoin"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=1466445.0"
+                ]
+            },
+            "platform": null,
+            "date_added": "2014-08-20T00:00:00.000Z",
+            "twitter_username": "syscoin",
+            "is_hidden": 0,
+            "date_launched": "2014-08-16T00:00:00.000Z",
+            "contract_address": [],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": [
+                "PoW",
+                "SHA-256",
+                "Platform",
+                "Masternodes",
+                "Smart Contracts",
+                "Web3"
+            ],
+            "self_reported_market_cap": null,
+            "infinite_supply": true
+        },
+        "693": {
+            "id": 693,
+            "name": "Verge",
+            "symbol": "XVG",
+            "category": "coin",
+            "description": "Verge (XVG) is a cryptocurrency . Users are able to generate XVG through the process of mining. Verge has a current supply of 16,521,925,212.823189 with 16,521,925,219.073189 in circulation. The last known price of Verge is 0.00348773 USD and is up 4.14 over the last 24 hours. It is currently trading on 85 active market(s) with $2,192,556.17 traded over the last 24 hours. More information can be found at http:\/\/vergecurrency.com\/.",
+            "slug": "verge",
+            "logo": "https:\/\/s2.coinmarketcap.com\/static\/img\/coins\/64x64\/693.png",
+            "subreddit": "vergecurrency",
+            "notice": "We have received reports from the Verge team that withdrawals are impeded on Yobit.",
+            "tags": [
+                "mineable",
+                "multiple-algorithms",
+                "medium-of-exchange"
+            ],
+            "tag-names": [
+                "Mineable",
+                "Multiple algorithms",
+                "Medium of Exchange"
+            ],
+            "tag-groups": [
+                "OTHERS",
+                "ALGORITHM",
+                "INDUSTRY"
+            ],
+            "urls": {
+                "website": [
+                    "http:\/\/vergecurrency.com\/"
+                ],
+                "twitter": [
+                    "https:\/\/twitter.com\/vergecurrency"
+                ],
+                "message_board": [],
+                "chat": [
+                    "https:\/\/t.me\/VERGExvg",
+                    "https:\/\/discord.gg\/vergecurrency"
+                ],
+                "facebook": [],
+                "explorer": [
+                    "https:\/\/verge-blockchain.info\/",
+                    "https:\/\/xvg.tokenview.com\/"
+                ],
+                "reddit": [
+                    "https:\/\/reddit.com\/r\/vergecurrency"
+                ],
+                "technical_doc": [
+                    "https:\/\/vergecurrency.com\/static\/blackpaper\/verge-blackpaper-v5.0.pdf"
+                ],
+                "source_code": [
+                    "https:\/\/github.com\/vergecurrency"
+                ],
+                "announcement": [
+                    "https:\/\/bitcointalk.org\/index.php?topic=1365894.0"
+                ]
+            },
+            "platform": null,
+            "date_added": "2014-10-25T00:00:00.000Z",
+            "twitter_username": "vergecurrency",
+            "is_hidden": 0,
+            "date_launched": null,
+            "contract_address": [],
+            "self_reported_circulating_supply": null,
+            "self_reported_tags": null,
+            "self_reported_market_cap": null,
+            "infinite_supply": false
+        }
+    }
+}

@@ -2,6 +2,8 @@
 
 namespace App\Console;
 
+use App\Console\Commands\UpdateCryptocurrencyDataCommand;
+use App\Jobs\UpdateCoinInfoJob;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
@@ -12,9 +14,16 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule): void
     {
-        // $schedule->command('inspire')->hourly();
-    }
+        /**
+         * ------------------------- config schedule timing -------------------------
+         *         https://laravel.com/docs/10.x/scheduling#schedule-frequency-options
+         * you should  use https://laravel.com/docs/10.x/queues#supervisor-configuration
+         * you config https://laravel.com/docs/10.x/scheduling#running-the-scheduler
+         */
 
+         $schedule->command(UpdateCryptocurrencyDataCommand::class)->everyMinute()->runInBackground();
+         $schedule->job(UpdateCoinInfoJob::class)->everyMinute();
+    }
     /**
      * Register the commands for the application.
      */

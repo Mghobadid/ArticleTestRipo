@@ -43,12 +43,10 @@ class UpdateCoinInfoJob implements ShouldQueue
 
         });
         if (empty($response)) exit();
-        $values = [];
+        $values = collect();
         foreach (array_values($response['data']) as $info)
         {
-//            Log::info($info);
-//            die;
-            $values[] = [
+            $values->push([
                 'cryptocurrency_id' => $info['id'],
                 'category' => $this->checkJson($info['category']),
                 'contract_address' => $this->checkJson($info['contract_address']),
@@ -72,12 +70,15 @@ class UpdateCoinInfoJob implements ShouldQueue
                 'tags' => $this->checkJson($info['tags']),
                 'twitter_username' => $this->checkJson($info['twitter_username']),
                 'urls' => $this->checkJson($info['urls']),
-            ];
-
+            ]);
         }
-
-        CoinInfo::upsert($values, 'cryptocurrency_id');
-
+        foreach ($values->chunk(25) as $chunk)
+        {
+            foreach ($chunk as $cryptos)
+            {
+                CoinInfo::upsert($cryptos, 'cryptocurrency_id');
+            }
+        }
     }
 
     public function checkJson($value)

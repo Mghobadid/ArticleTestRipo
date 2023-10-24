@@ -20,6 +20,7 @@
         <th>Name</th>
         <th>Symbol</th>
         <th>Slug</th>
+        <th>Logo</th>
         <th>CMC Rank</th>
         <th>Market Cap</th>
         <th>Price</th>
@@ -39,6 +40,7 @@
             <td><a href="{{route('crypto.show',['id'=>$item->id])}}">{{ $item->name }}</a></td>
             <td>{{ $item->symbol }}</td>
             <td>{{ $item->slug }}</td>
+            <td><img width="25" src="{{ $item->coinInfos->logo??"" }}"></td>
             <td>{{ $item->cmc_rank }}</td>
             <td>{{ $item->market_cap }}</td>
             <td>{{ $item->price }}</td>

@@ -9,7 +9,10 @@ class CryptoController extends Controller
 {
     public function index()
     {
-        $data = cryptocurrencies::paginate();
+        $data = cryptocurrencies::with('coinInfos:cryptocurrency_id,logo')
+            ->orderBy('cmc_rank')
+            ->paginate(20);
+
         return view('crypto.index', ['values' => $data]);
     }
 

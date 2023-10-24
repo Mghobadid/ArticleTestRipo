@@ -21,15 +21,22 @@ class Kernel extends ConsoleKernel
          * you config https://laravel.com/docs/10.x/scheduling#running-the-scheduler
          */
 
-         $schedule->command(UpdateCryptocurrencyDataCommand::class)->everyMinute()->runInBackground();
-         $schedule->job(UpdateCoinInfoJob::class)->everyMinute();
+        $schedule->command(UpdateCryptocurrencyDataCommand::class)
+            ->withoutOverlapping()
+            ->runInBackground()
+            ->daily()
+            ->then(function () {
+                dispatch(new UpdateCoinInfoJob());
+            });
+
     }
+
     /**
      * Register the commands for the application.
      */
     protected function commands(): void
     {
-        $this->load(__DIR__.'/Commands');
+        $this->load(__DIR__ . '/Commands');
 
         require base_path('routes/console.php');
     }

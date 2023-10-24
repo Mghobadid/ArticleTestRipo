@@ -11,8 +11,8 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Cache;
-use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
 
 class UpdateCoinInfoJob implements ShouldQueue
 {
@@ -28,27 +28,28 @@ class UpdateCoinInfoJob implements ShouldQueue
     public function handle(): void
     {
         $ids_ = implode(',', $this->crypto_ids);
-        $response = Cache::remember('crypto_info', 3600, function () use ($ids_) {
-            $headers = [
-                // 'X-CMC_PRO_API_KEY' => '0af4288d-7634-49c9-9338-8a7798e06d5c'
-                // 'X-CMC_PRO_API_KEY' => '134e7a1d-8a71-4140-94d3-dc142efec103'
-                'X-CMC_PRO_API_KEY' => 'bde58904-5d32-4386-ab66-cbf98b060394'
-                // 'X-CMC_PRO_API_KEY' => 'ba600f64-130c-431a-9848-71cf3966d0ce'
-            ];
+        $response = Cache::remember('crypto_info', 60, function () use ($ids_) {
+            $headers = ['X-CMC_PRO_API_KEY' => env('X_CMC_PRO_API_KEY')];
+
             $response = Http::withHeaders($headers)->get("https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?id={$ids_}");
             if ($response->successful())
             {
                 return $response->json();
+            } else
+            {
+                Log::channel('daily')->error($response->object()->status->error_message);
+                exit();
             }
-            return [];
+
         });
+        if (empty($response)) exit();
         $values = [];
         foreach (array_values($response['data']) as $info)
         {
 //            Log::info($info);
 //            die;
             $values[] = [
-                'id' => $info['id'],
+                'cryptocurrency_id' => $info['id'],
                 'category' => $this->checkJson($info['category']),
                 'contract_address' => $this->checkJson($info['contract_address']),
                 'date_added' => Carbon::parse($this->checkJson($info['date_added'])),
@@ -75,7 +76,7 @@ class UpdateCoinInfoJob implements ShouldQueue
 
         }
 
-        CoinInfo::upsert($values, 'id');
+        CoinInfo::upsert($values, 'cryptocurrency_id');
 
     }
 

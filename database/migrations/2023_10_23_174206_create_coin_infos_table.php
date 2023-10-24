@@ -8,30 +8,31 @@ return new class extends Migration {
     public function up(): void
     {
         Schema::create('coin_infos', function (Blueprint $table) {
-            $table->foreignId('id')->constrained('cryptocurrencies')->cascadeOnDelete();
-            $table->string('category');
+            $table->id();
+            $table->foreignId('cryptocurrency_id')->unique()->constrained('cryptocurrencies')->cascadeOnDelete();
+            $table->string('category')->nullable();
             $table->json('contract_address')->nullable();
             $table->dateTime('date_added')->nullable();
             $table->dateTime('date_launched')->nullable();
-            $table->text('description');
-            $table->boolean('infinite_supply');
-            $table->boolean('is_hidden');
-            $table->string('logo');
-            $table->string('name');
-            $table->text('notice');
-            $table->json('platform');
-            $table->float('self_reported_circulating_supply');
-            $table->float('self_reported_market_cap');
-            $table->string('self_reported_tags');
+            $table->text('description')->nullable();
+            $table->boolean('infinite_supply')->nullable();
+            $table->boolean('is_hidden')->nullable();
+            $table->text('logo')->nullable();
+            $table->string('name')->nullable();
+            $table->text('notice')->nullable();
+            $table->json('platform')->nullable();
+            $table->double('self_reported_circulating_supply')->nullable();
+            $table->double('self_reported_market_cap')->nullable();
+            $table->json('self_reported_tags')->nullable();
             $table->string('slug');
             $table->string('subreddit');
             $table->string('symbol');
             $table->json('tag_groups')->nullable();
             $table->json('tag_names')->nullable();
             $table->json('tags')->nullable();
-            $table->string('twitter_username');
+            $table->string('twitter_username')->nullable();
             $table->timestamp('updated_at')->useCurrent();
-            $table->json('urls');
+            $table->json('urls')->nullable();
         });
     }
 

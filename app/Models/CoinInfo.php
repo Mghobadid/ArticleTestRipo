@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class CoinInfo extends Model
 {
@@ -15,4 +16,9 @@ class CoinInfo extends Model
         'urls' => 'json',
         'platform' => 'json',
     ];
+
+    public function cryptocurrency(): BelongsTo
+    {
+        return $this->belongsTo(cryptocurrencies::class,'cryptocurrency_id');
+    }
 }

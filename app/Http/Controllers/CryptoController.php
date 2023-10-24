@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\CoinInfo;
 use App\Models\cryptocurrencies;
+
 class CryptoController extends Controller
 {
     public function index()
@@ -11,8 +12,12 @@ class CryptoController extends Controller
         $data = cryptocurrencies::paginate();
         return view('crypto.index', ['values' => $data]);
     }
-    public function show(CoinInfo $cryptocurrencies)
+
+    public function show($id)
     {
-        return view('crypto.show', compact('cryptocurrencies'));
+
+        $coinInfo=CoinInfo::where('cryptocurrency_id',$id)->with('cryptocurrency')->firstOrFail();
+
+        return view('crypto.show', compact('coinInfo'));
     }
 }

@@ -36,7 +36,7 @@
     @foreach ($values as $item)
         <tr>
             <td>{{ $item->id }}</td>
-            <td><a href="{{route('crypto.show',['cryptocurrencies'=>$item->id])}}">{{ $item->name }}</a></td>
+            <td><a href="{{route('crypto.show',['id'=>$item->id])}}">{{ $item->name }}</a></td>
             <td>{{ $item->symbol }}</td>
             <td>{{ $item->slug }}</td>
             <td>{{ $item->cmc_rank }}</td>

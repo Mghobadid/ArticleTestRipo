@@ -10,10 +10,6 @@ use Stichoza\GoogleTranslate\GoogleTranslate;
 
 class ArticleController extends Controller
 {
-    public function show()
-    {
-
-    }
 
     public function index(Request $request, ArticleAnalyticsService $analytics)
     {
@@ -40,14 +36,13 @@ class ArticleController extends Controller
         return view('create');
     }
 
-    public function store(Request $request)
+    public function update(Request $request, Article $article)
     {
         $request->validate([
             'title' => 'string',
-            'content' => 'string',
-
+            'body' => 'string',
         ]);
-        $translates_key = ['es', 'ko', 'tr'];
+        $translates_key = ['es', 'ko', 'tr', 'de'];
         $translatable_fields = ['title', 'body'];
         $tr = new GoogleTranslate(); // Translates to 'en' from auto-detected language by default
         $tr->setSource('en');
@@ -57,13 +52,60 @@ class ArticleController extends Controller
             $tr->setTarget($key);
             foreach ($translatable_fields as $field)
             {
-                $translated[$field . '_' . $key] = $tr->translate(\request($field)); // ex output:title_tr , body_tr
+                $parts = str_split(request($field), 3000);
+                $content = '';
+                foreach ($parts as $part)
+                {
+                    $content .= $tr->translate($part);
+                }
+                $translated[$field . '_' . $key] = $content;
             }
         }
-        $request->merge($translated);
+        $toSave = $request->merge($translated)->toArray();
+        unset($toSave['_token']);
+        Article::unguard();
+        $article->update($toSave);
+        Article::reguard();
 
-        Article::create($request->toArray());
 
+    }
+
+    public function store(Request $request)
+    {
+        $request->validate([
+            'title' => 'string',
+            'body' => 'string',
+
+        ]);
+        $translates_key = ['es', 'ko', 'tr', 'de'];
+        $translatable_fields = ['title', 'body'];
+        $tr = new GoogleTranslate(); // Translates to 'en' from auto-detected language by default
+        $tr->setSource('en');
+        $translated = [];
+        foreach ($translates_key as $key) // add original filed to array
+        {
+            $tr->setTarget($key);
+            foreach ($translatable_fields as $field)
+            {
+                $parts = str_split(request($field), 3000);
+                $content = '';
+                foreach ($parts as $part)
+                {
+                    $content .= $tr->translate($part);
+                }
+                $translated[$field . '_' . $key] = $content;
+            }
+        }
+        $toSave = $request->merge($translated)->toArray();
+        unset($toSave['_token']);
+        Article::forceCreate($toSave);
+
+    }
+
+
+    public function show(Article $article)
+    {
+        return view('show', compact('article'));
     }
 
     public function store_v2(Request $request)

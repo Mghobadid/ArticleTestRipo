@@ -16,7 +16,18 @@
     <textarea id="body" name="body"></textarea> <br>
 
     <br>
- 
+
+    <input type="submit" value="Submit">
+</form>
+<form action="{{route('home.update',['article'=>1])}}" method="post">
+    @csrf
+    <label for="title"> Title:</label>
+    <input id="title" name="title"></input>
+    <label for="body">Body:</label>
+    <textarea id="body" name="body"></textarea> <br>
+
+    <br>
+
     <input type="submit" value="Submit">
 </form>
 </body>

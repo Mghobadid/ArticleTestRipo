@@ -11,7 +11,7 @@ class Article extends Model
 {
     use HasFactory;
 
-
+    protected $fillable=['body','title','title_ko'];
     protected $casts = [
         'type' => ArticleTypeEnum::class
     ];
